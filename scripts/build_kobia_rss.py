@@ -1,11 +1,17 @@
 import os
 import re
+import time
 import requests
+import urllib3
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse, parse_qs
 from feedgen.feed import FeedGenerator
 from datetime import datetime
-from email.utils import format_datetime
+from requests.exceptions import SSLError, RequestException
+
+# KOBIA 서버 인증서 체인 검증 실패(CERTIFICATE_VERIFY_FAILED) 대비:
+# verify=False 재시도 시 뜨는 경고 메시지를 숨긴다.
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 BASE_URL = "https://www.kobia.kr"
 
@@ -36,16 +42,49 @@ HEADERS = {
 
 MAX_ITEMS_PER_BOARD = 30
 
+# 공통 세션(헤더 재사용)
+session = requests.Session()
+session.headers.update(HEADERS)
+
 
 def ensure_public_dir():
     os.makedirs("public", exist_ok=True)
 
 
-def get_html(url):
-    response = requests.get(url, headers=HEADERS, timeout=30)
-    response.raise_for_status()
-    response.encoding = response.apparent_encoding
-    return response.text
+def get_html(url, retries=3, delay=2):
+    """
+    정상 SSL 검증으로 먼저 접속을 시도하고,
+    KOBIA처럼 인증서 검증이 실패하는 경우에만 verify=False로 재시도한다.
+    네트워크가 일시적으로 흔들릴 때를 대비해 재시도 로직도 포함한다.
+    """
+    last_error = None
+
+    for attempt in range(1, retries + 1):
+        try:
+            response = session.get(url, timeout=30)
+            response.raise_for_status()
+            response.encoding = response.apparent_encoding
+            return response.text
+
+        except SSLError:
+            # SSL 인증서 검증 실패 시 검증을 끄고 재시도
+            try:
+                print(f"SSL 검증 실패로 verify=False 재시도: {url}")
+                response = session.get(url, timeout=30, verify=False)
+                response.raise_for_status()
+                response.encoding = response.apparent_encoding
+                return response.text
+            except RequestException as e:
+                last_error = e
+
+        except RequestException as e:
+            last_error = e
+
+        if attempt < retries:
+            print(f"재시도 {attempt}/{retries}: {url}")
+            time.sleep(delay)
+
+    raise last_error
 
 
 def extract_post_links(list_url, board_id):
@@ -82,15 +121,15 @@ def guess_date(text):
         return None
 
     patterns = [
-        r"(\d{4}[.\-/]\d{1,2}[.\-/]\d{1,2})",
         r"(\d{4}[.\-/]\d{1,2}[.\-/]\d{1,2}\s+\d{1,2}:\d{2})",
+        r"(\d{4}[.\-/]\d{1,2}[.\-/]\d{1,2})",
     ]
 
     for pattern in patterns:
         m = re.search(pattern, text)
         if m:
             raw = m.group(1).replace(".", "-").replace("/", "-")
-            for fmt in ("%Y-%m-%d", "%Y-%m-%d %H:%M"):
+            for fmt in ("%Y-%m-%d %H:%M", "%Y-%m-%d"):
                 try:
                     return datetime.strptime(raw, fmt)
                 except ValueError:
@@ -114,8 +153,11 @@ def extract_attachments(soup, page_url):
         text = a.get_text(" ", strip=True)
         full_url = urljoin(page_url, href)
 
-        # 첨부파일로 보이는 패턴 후보
-        if any(ext in full_url.lower() for ext in [".pdf", ".xlsx", ".xls", ".doc", ".docx", ".hwp", ".zip", ".csv", ".ppt", ".pptx"]):
+        # 첨부파일로 보이는 확장자 후보
+        if any(ext in full_url.lower() for ext in [
+            ".pdf", ".xlsx", ".xls", ".doc", ".docx",
+            ".hwp", ".zip", ".csv", ".ppt", ".pptx"
+        ]):
             attachments.append({
                 "name": text or os.path.basename(full_url),
                 "url": full_url
@@ -149,7 +191,7 @@ def extract_post(post_url, board_name):
     if soup.title:
         title = soup.title.get_text(strip=True)
 
-    # 화면 구조마다 다를 수 있어서 후보를 여러 개 탐색
+    # 화면 구조마다 다를 수 있어 후보를 여러 개 탐색
     title_candidates = [
         soup.find(["h1", "h2", "h3"]),
         soup.find(class_=re.compile("title|subject", re.I)),
@@ -266,9 +308,13 @@ def main():
     all_items = []
 
     for board in BOARDS:
-        links = extract_post_links(board["list_url"], board["board_id"])
-        items = []
+        try:
+            links = extract_post_links(board["list_url"], board["board_id"])
+        except Exception as e:
+            print(f"목록 페이지 처리 실패, 건너뜀: {board['list_url']} / {e}")
+            links = []
 
+        items = []
         for link in links:
             try:
                 item = extract_post(link, board["name"])
