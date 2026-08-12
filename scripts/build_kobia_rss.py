@@ -20,19 +20,19 @@ BOARDS = [
         "name": "업계동향",
         "list_url": "https://www.kobia.kr/memberlounge/trend.php",
         "board_id": "trend",
-        "output": "public/trend.xml",
+        "output": "docs/trend.xml",
     },
     {
         "name": "임상·허가",
         "list_url": "https://www.kobia.kr/memberlounge/trend_3.php",
         "board_id": "trend_3",
-        "output": "public/trend_3.xml",
+        "output": "docs/trend_3.xml",
     },
     {
         "name": "글로벌 동향",
         "list_url": "https://www.kobia.kr/memberlounge/trend_4.php",
         "board_id": "trend_4",
-        "output": "public/trend_4.xml",
+        "output": "docs/trend_4.xml",
     },
 ]
 
@@ -47,8 +47,8 @@ session = requests.Session()
 session.headers.update(HEADERS)
 
 
-def ensure_public_dir():
-    os.makedirs("public", exist_ok=True)
+def ensure_docs_dir():
+    os.makedirs("docs", exist_ok=True)
 
 
 def get_html(url, retries=3, delay=2):
@@ -67,7 +67,6 @@ def get_html(url, retries=3, delay=2):
             return response.text
 
         except SSLError:
-            # SSL 인증서 검증 실패 시 검증을 끄고 재시도
             try:
                 print(f"SSL 검증 실패로 verify=False 재시도: {url}")
                 response = session.get(url, timeout=30, verify=False)
@@ -137,7 +136,6 @@ def guess_date(text):
             for fmt in ("%Y-%m-%d %H:%M", "%Y-%m-%d"):
                 try:
                     naive_dt = datetime.strptime(raw, fmt)
-                    # UTC 타임존을 붙여 timezone-aware datetime으로 변환
                     return naive_dt.replace(tzinfo=timezone.utc)
                 except ValueError:
                     pass
@@ -198,7 +196,6 @@ def extract_post(post_url, board_name):
     if soup.title:
         title = soup.title.get_text(strip=True)
 
-    # 화면 구조마다 다를 수 있어 후보를 여러 개 탐색
     title_candidates = [
         soup.find(["h1", "h2", "h3"]),
         soup.find(class_=re.compile("title|subject", re.I)),
@@ -214,7 +211,6 @@ def extract_post(post_url, board_name):
     published = guess_date(page_text)
     attachments = extract_attachments(soup, post_url)
 
-    # 본문 후보 찾기
     body_candidates = [
         soup.find(class_=re.compile("content|view|body", re.I)),
         soup.find("td"),
@@ -274,7 +270,7 @@ def write_feed(board_name, items, output_path, feed_path_name):
         fe.link(href=item["link"])
 
         if item["published"]:
-            fe.pubDate(item["published"])  # 이제 timezone-aware datetime이므로 오류 없음
+            fe.pubDate(item["published"])
 
         description = build_description(item)
         fe.description(description)
@@ -305,12 +301,12 @@ def write_index():
 </body>
 </html>
 """
-    with open("public/index.html", "w", encoding="utf-8") as f:
+    with open("docs/index.html", "w", encoding="utf-8") as f:
         f.write(html)
 
 
 def main():
-    ensure_public_dir()
+    ensure_docs_dir()
 
     all_items = []
 
@@ -337,7 +333,7 @@ def main():
         key=lambda x: x["published"] or datetime(2000, 1, 1, tzinfo=timezone.utc),
         reverse=True
     )
-    write_feed("통합", all_items_sorted, "public/all.xml", "all.xml")
+    write_feed("통합", all_items_sorted, "docs/all.xml", "all.xml")
     write_index()
 
 
