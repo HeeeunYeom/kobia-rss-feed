@@ -6,7 +6,7 @@ import urllib3
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse, parse_qs
 from feedgen.feed import FeedGenerator
-from datetime import datetime
+from datetime import datetime, timezone
 from requests.exceptions import SSLError, RequestException
 
 # KOBIA 서버 인증서 체인 검증 실패(CERTIFICATE_VERIFY_FAILED) 대비:
@@ -117,6 +117,11 @@ def extract_text(element):
 
 
 def guess_date(text):
+    """
+    페이지 텍스트에서 날짜를 추출해 timezone-aware datetime(UTC)으로 반환한다.
+    feedgen의 pubDate/published는 tzinfo가 없으면 ValueError를 발생시키므로
+    반드시 UTC 타임존을 붙여서 반환한다.
+    """
     if not text:
         return None
 
@@ -131,7 +136,9 @@ def guess_date(text):
             raw = m.group(1).replace(".", "-").replace("/", "-")
             for fmt in ("%Y-%m-%d %H:%M", "%Y-%m-%d"):
                 try:
-                    return datetime.strptime(raw, fmt)
+                    naive_dt = datetime.strptime(raw, fmt)
+                    # UTC 타임존을 붙여 timezone-aware datetime으로 변환
+                    return naive_dt.replace(tzinfo=timezone.utc)
                 except ValueError:
                     pass
     return None
@@ -267,7 +274,7 @@ def write_feed(board_name, items, output_path, feed_path_name):
         fe.link(href=item["link"])
 
         if item["published"]:
-            fe.pubDate(item["published"])
+            fe.pubDate(item["published"])  # 이제 timezone-aware datetime이므로 오류 없음
 
         description = build_description(item)
         fe.description(description)
@@ -327,7 +334,7 @@ def main():
 
     all_items_sorted = sorted(
         all_items,
-        key=lambda x: x["published"] or datetime(2000, 1, 1),
+        key=lambda x: x["published"] or datetime(2000, 1, 1, tzinfo=timezone.utc),
         reverse=True
     )
     write_feed("통합", all_items_sorted, "public/all.xml", "all.xml")
