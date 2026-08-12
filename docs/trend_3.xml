@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>KOBIA 임상·허가 RSS</title>
+    <link>https://example.github.io/trend_3.xml</link>
+    <description>KOBIA 임상·허가 게시판 RSS</description>
+    <atom:link href="https://example.github.io/trend_3.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>ko</language>
+    <lastBuildDate>Wed, 12 Aug 2026 08:53:47 +0000</lastBuildDate>
+    <item>
+      <title>업계동향</title>
+      <link>https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=881&amp;sk=&amp;sw=&amp;offset=&amp;category=</link>
+      <description>&lt;p&gt;&lt;strong&gt;게시판:&lt;/strong&gt; 임상·허가&lt;/p&gt;&lt;p&gt;&lt;strong&gt;본문:&lt;/strong&gt; 제목 국내 바이오의약품 임상 현황 (2026년 7월 1주) 구분 임상 출처 의약품안전나라 (의약품통합정보시스템) 등록일 2026.07.06 작성자 산업정보팀 조회수 274 첨부파일 KoBIA_의약품안전나라_국내 바이오의약품 임상 현황_2026년 7월 1주_20260706.pdf&lt;/p&gt;&lt;p&gt;&lt;strong&gt;첨부파일:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="javascript:download('trend_3','881','17522','application/pdf');"&gt;KoBIA_의약품안전나라_국내 바이오의약품 임상 현황_2026년 7월 1주_20260706.pdf&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=881&amp;sk=&amp;sw=&amp;offset=&amp;category="&gt;게시글 바로가기&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong>게시판:</strong> 임상·허가</p><p><strong>본문:</strong> 제목 국내 바이오의약품 임상 현황 (2026년 7월 1주) 구분 임상 출처 의약품안전나라 (의약품통합정보시스템) 등록일 2026.07.06 작성자 산업정보팀 조회수 274 첨부파일 KoBIA_의약품안전나라_국내 바이오의약품 임상 현황_2026년 7월 1주_20260706.pdf</p><p><strong>첨부파일:</strong></p><ul><li><a href="javascript:download('trend_3','881','17522','application/pdf');">KoBIA_의약품안전나라_국내 바이오의약품 임상 현황_2026년 7월 1주_20260706.pdf</a></li></ul><p><a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&sNum=5&sNum2=3&boardid=trend_3&mode=view&idx=881&sk=&sw=&offset=&category=">게시글 바로가기</a></p>]]></content:encoded>
+      <guid isPermaLink="false">trend_3-881</guid>
+      <enclosure url="javascript:download('trend_3','881','17522','application/pdf');" length="0" type="application/octet-stream"/>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>업계동향</title>
+      <link>https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=882&amp;sk=&amp;sw=&amp;offset=&amp;category=</link>
+      <description>&lt;p&gt;&lt;strong&gt;게시판:&lt;/strong&gt; 임상·허가&lt;/p&gt;&lt;p&gt;&lt;strong&gt;본문:&lt;/strong&gt; 제목 해외 바이오의약품 임상 현황 (2026년 7월 1주) 구분 임상 출처 ClinicalTrials.gov 등록일 2026.07.07 작성자 산업정보팀 조회수 260 첨부파일 KoBIA_ClinicalTrials.gov_해외 바이오의약품 임상 현황_2026년 7월 1주_20260707.pdf&lt;/p&gt;&lt;p&gt;&lt;strong&gt;첨부파일:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="javascript:download('trend_3','882','17531','application/pdf');"&gt;KoBIA_ClinicalTrials.gov_해외 바이오의약품 임상 현황_2026년 7월 1주_20260707.pdf&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=882&amp;sk=&amp;sw=&amp;offset=&amp;category="&gt;게시글 바로가기&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong>게시판:</strong> 임상·허가</p><p><strong>본문:</strong> 제목 해외 바이오의약품 임상 현황 (2026년 7월 1주) 구분 임상 출처 ClinicalTrials.gov 등록일 2026.07.07 작성자 산업정보팀 조회수 260 첨부파일 KoBIA_ClinicalTrials.gov_해외 바이오의약품 임상 현황_2026년 7월 1주_20260707.pdf</p><p><strong>첨부파일:</strong></p><ul><li><a href="javascript:download('trend_3','882','17531','application/pdf');">KoBIA_ClinicalTrials.gov_해외 바이오의약품 임상 현황_2026년 7월 1주_20260707.pdf</a></li></ul><p><a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&sNum=5&sNum2=3&boardid=trend_3&mode=view&idx=882&sk=&sw=&offset=&category=">게시글 바로가기</a></p>]]></content:encoded>
+      <guid isPermaLink="false">trend_3-882</guid>
+      <enclosure url="javascript:download('trend_3','882','17531','application/pdf');" length="0" type="application/octet-stream"/>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>업계동향</title>
+      <link>https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=883&amp;sk=&amp;sw=&amp;offset=&amp;category=</link>
+      <description>&lt;p&gt;&lt;strong&gt;게시판:&lt;/strong&gt; 임상·허가&lt;/p&gt;&lt;p&gt;&lt;strong&gt;본문:&lt;/strong&gt; 제목 국내·외 바이오의약품 허가 현황 (2026년 6월) 구분 허가 출처 식품의약품안전처, FDA, EC, PMDA 등록일 2026.07.09 작성자 산업정보팀 조회수 209 첨부파일 KoBIA_국내외 바이오의약품 허가 현황(2026년 6월)_20260709.pdf&lt;/p&gt;&lt;p&gt;&lt;strong&gt;첨부파일:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="javascript:download('trend_3','883','17541','application/pdf');"&gt;KoBIA_국내외 바이오의약품 허가 현황(2026년 6월)_20260709.pdf&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=883&amp;sk=&amp;sw=&amp;offset=&amp;category="&gt;게시글 바로가기&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong>게시판:</strong> 임상·허가</p><p><strong>본문:</strong> 제목 국내·외 바이오의약품 허가 현황 (2026년 6월) 구분 허가 출처 식품의약품안전처, FDA, EC, PMDA 등록일 2026.07.09 작성자 산업정보팀 조회수 209 첨부파일 KoBIA_국내외 바이오의약품 허가 현황(2026년 6월)_20260709.pdf</p><p><strong>첨부파일:</strong></p><ul><li><a href="javascript:download('trend_3','883','17541','application/pdf');">KoBIA_국내외 바이오의약품 허가 현황(2026년 6월)_20260709.pdf</a></li></ul><p><a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&sNum=5&sNum2=3&boardid=trend_3&mode=view&idx=883&sk=&sw=&offset=&category=">게시글 바로가기</a></p>]]></content:encoded>
+      <guid isPermaLink="false">trend_3-883</guid>
+      <enclosure url="javascript:download('trend_3','883','17541','application/pdf');" length="0" type="application/octet-stream"/>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>업계동향</title>
+      <link>https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=884&amp;sk=&amp;sw=&amp;offset=&amp;category=</link>
+      <description>&lt;p&gt;&lt;strong&gt;게시판:&lt;/strong&gt; 임상·허가&lt;/p&gt;&lt;p&gt;&lt;strong&gt;본문:&lt;/strong&gt; 제목 국내 바이오의약품 임상 현황 (2026년 7월 2주) 구분 임상 출처 식품의약품안전처 등록일 2026.07.13 작성자 산업정보팀 조회수 234 첨부파일 KoBIA_의약품안전나라_국내 바이오의약품 임상 현황_2026년 7월 2주_20260713.pdf&lt;/p&gt;&lt;p&gt;&lt;strong&gt;첨부파일:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="javascript:download('trend_3','884','17550','application/pdf');"&gt;KoBIA_의약품안전나라_국내 바이오의약품 임상 현황_2026년 7월 2주_20260713.pdf&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=884&amp;sk=&amp;sw=&amp;offset=&amp;category="&gt;게시글 바로가기&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong>게시판:</strong> 임상·허가</p><p><strong>본문:</strong> 제목 국내 바이오의약품 임상 현황 (2026년 7월 2주) 구분 임상 출처 식품의약품안전처 등록일 2026.07.13 작성자 산업정보팀 조회수 234 첨부파일 KoBIA_의약품안전나라_국내 바이오의약품 임상 현황_2026년 7월 2주_20260713.pdf</p><p><strong>첨부파일:</strong></p><ul><li><a href="javascript:download('trend_3','884','17550','application/pdf');">KoBIA_의약품안전나라_국내 바이오의약품 임상 현황_2026년 7월 2주_20260713.pdf</a></li></ul><p><a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&sNum=5&sNum2=3&boardid=trend_3&mode=view&idx=884&sk=&sw=&offset=&category=">게시글 바로가기</a></p>]]></content:encoded>
+      <guid isPermaLink="false">trend_3-884</guid>
+      <enclosure url="javascript:download('trend_3','884','17550','application/pdf');" length="0" type="application/octet-stream"/>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>업계동향</title>
+      <link>https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=885&amp;sk=&amp;sw=&amp;offset=&amp;category=</link>
+      <description>&lt;p&gt;&lt;strong&gt;게시판:&lt;/strong&gt; 임상·허가&lt;/p&gt;&lt;p&gt;&lt;strong&gt;본문:&lt;/strong&gt; 제목 해외 바이오의약품 임상 현황 (2026년 7월 2주) 구분 임상 출처 ClinicalTrials.gov 등록일 2026.07.14 작성자 산업정보팀 조회수 277 첨부파일 KoBIA_ClinicalTrials.gov_해외 바이오의약품 임상 현황_2026년 7월 2주_20260714.pdf&lt;/p&gt;&lt;p&gt;&lt;strong&gt;첨부파일:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="javascript:download('trend_3','885','17556','application/pdf');"&gt;KoBIA_ClinicalTrials.gov_해외 바이오의약품 임상 현황_2026년 7월 2주_20260714.pdf&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=885&amp;sk=&amp;sw=&amp;offset=&amp;category="&gt;게시글 바로가기&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong>게시판:</strong> 임상·허가</p><p><strong>본문:</strong> 제목 해외 바이오의약품 임상 현황 (2026년 7월 2주) 구분 임상 출처 ClinicalTrials.gov 등록일 2026.07.14 작성자 산업정보팀 조회수 277 첨부파일 KoBIA_ClinicalTrials.gov_해외 바이오의약품 임상 현황_2026년 7월 2주_20260714.pdf</p><p><strong>첨부파일:</strong></p><ul><li><a href="javascript:download('trend_3','885','17556','application/pdf');">KoBIA_ClinicalTrials.gov_해외 바이오의약품 임상 현황_2026년 7월 2주_20260714.pdf</a></li></ul><p><a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&sNum=5&sNum2=3&boardid=trend_3&mode=view&idx=885&sk=&sw=&offset=&category=">게시글 바로가기</a></p>]]></content:encoded>
+      <guid isPermaLink="false">trend_3-885</guid>
+      <enclosure url="javascript:download('trend_3','885','17556','application/pdf');" length="0" type="application/octet-stream"/>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>업계동향</title>
+      <link>https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=886&amp;sk=&amp;sw=&amp;offset=&amp;category=</link>
+      <description>&lt;p&gt;&lt;strong&gt;게시판:&lt;/strong&gt; 임상·허가&lt;/p&gt;&lt;p&gt;&lt;strong&gt;본문:&lt;/strong&gt; 제목 국내 바이오의약품 임상 현황 (2026년 7월 3주) 구분 임상 출처 의약품안전나라 (의약품통합정보시스템) 등록일 2026.07.20 작성자 산업정보팀 조회수 266 첨부파일 KoBIA_의약품안전나라_국내 바이오의약품 임상 현황_2026년 7월 3주_20260720.pdf&lt;/p&gt;&lt;p&gt;&lt;strong&gt;첨부파일:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="javascript:download('trend_3','886','17575','application/pdf');"&gt;KoBIA_의약품안전나라_국내 바이오의약품 임상 현황_2026년 7월 3주_20260720.pdf&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=886&amp;sk=&amp;sw=&amp;offset=&amp;category="&gt;게시글 바로가기&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong>게시판:</strong> 임상·허가</p><p><strong>본문:</strong> 제목 국내 바이오의약품 임상 현황 (2026년 7월 3주) 구분 임상 출처 의약품안전나라 (의약품통합정보시스템) 등록일 2026.07.20 작성자 산업정보팀 조회수 266 첨부파일 KoBIA_의약품안전나라_국내 바이오의약품 임상 현황_2026년 7월 3주_20260720.pdf</p><p><strong>첨부파일:</strong></p><ul><li><a href="javascript:download('trend_3','886','17575','application/pdf');">KoBIA_의약품안전나라_국내 바이오의약품 임상 현황_2026년 7월 3주_20260720.pdf</a></li></ul><p><a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&sNum=5&sNum2=3&boardid=trend_3&mode=view&idx=886&sk=&sw=&offset=&category=">게시글 바로가기</a></p>]]></content:encoded>
+      <guid isPermaLink="false">trend_3-886</guid>
+      <enclosure url="javascript:download('trend_3','886','17575','application/pdf');" length="0" type="application/octet-stream"/>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>업계동향</title>
+      <link>https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=887&amp;sk=&amp;sw=&amp;offset=&amp;category=</link>
+      <description>&lt;p&gt;&lt;strong&gt;게시판:&lt;/strong&gt; 임상·허가&lt;/p&gt;&lt;p&gt;&lt;strong&gt;본문:&lt;/strong&gt; 제목 해외 바이오의약품 임상 현황 (2026년 7월 3주) 구분 임상 출처 ClinicalTrials.gov 등록일 2026.07.21 작성자 산업정보팀 조회수 239 첨부파일 KoBIA_ClinicalTrials.gov_해외 바이오의약품 임상 현황_2026년 7월 3주_20260721.pdf&lt;/p&gt;&lt;p&gt;&lt;strong&gt;첨부파일:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="javascript:download('trend_3','887','17588','application/pdf');"&gt;KoBIA_ClinicalTrials.gov_해외 바이오의약품 임상 현황_2026년 7월 3주_20260721.pdf&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=887&amp;sk=&amp;sw=&amp;offset=&amp;category="&gt;게시글 바로가기&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong>게시판:</strong> 임상·허가</p><p><strong>본문:</strong> 제목 해외 바이오의약품 임상 현황 (2026년 7월 3주) 구분 임상 출처 ClinicalTrials.gov 등록일 2026.07.21 작성자 산업정보팀 조회수 239 첨부파일 KoBIA_ClinicalTrials.gov_해외 바이오의약품 임상 현황_2026년 7월 3주_20260721.pdf</p><p><strong>첨부파일:</strong></p><ul><li><a href="javascript:download('trend_3','887','17588','application/pdf');">KoBIA_ClinicalTrials.gov_해외 바이오의약품 임상 현황_2026년 7월 3주_20260721.pdf</a></li></ul><p><a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&sNum=5&sNum2=3&boardid=trend_3&mode=view&idx=887&sk=&sw=&offset=&category=">게시글 바로가기</a></p>]]></content:encoded>
+      <guid isPermaLink="false">trend_3-887</guid>
+      <enclosure url="javascript:download('trend_3','887','17588','application/pdf');" length="0" type="application/octet-stream"/>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>업계동향</title>
+      <link>https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=888&amp;sk=&amp;sw=&amp;offset=&amp;category=</link>
+      <description>&lt;p&gt;&lt;strong&gt;게시판:&lt;/strong&gt; 임상·허가&lt;/p&gt;&lt;p&gt;&lt;strong&gt;본문:&lt;/strong&gt; 제목 국내 바이오의약품 임상 현황 (2026년 7월 4주) 구분 임상 출처 의약품안전나라 (의약품통합정보시스템) 등록일 2026.07.28 작성자 산업정보팀 조회수 253 첨부파일 KoBIA_의약품안전나라_국내 바이오의약품 임상 현황_2026년 7월 4주_20260728.pdf&lt;/p&gt;&lt;p&gt;&lt;strong&gt;첨부파일:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="javascript:download('trend_3','888','17615','application/pdf');"&gt;KoBIA_의약품안전나라_국내 바이오의약품 임상 현황_2026년 7월 4주_20260728.pdf&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=888&amp;sk=&amp;sw=&amp;offset=&amp;category="&gt;게시글 바로가기&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong>게시판:</strong> 임상·허가</p><p><strong>본문:</strong> 제목 국내 바이오의약품 임상 현황 (2026년 7월 4주) 구분 임상 출처 의약품안전나라 (의약품통합정보시스템) 등록일 2026.07.28 작성자 산업정보팀 조회수 253 첨부파일 KoBIA_의약품안전나라_국내 바이오의약품 임상 현황_2026년 7월 4주_20260728.pdf</p><p><strong>첨부파일:</strong></p><ul><li><a href="javascript:download('trend_3','888','17615','application/pdf');">KoBIA_의약품안전나라_국내 바이오의약품 임상 현황_2026년 7월 4주_20260728.pdf</a></li></ul><p><a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&sNum=5&sNum2=3&boardid=trend_3&mode=view&idx=888&sk=&sw=&offset=&category=">게시글 바로가기</a></p>]]></content:encoded>
+      <guid isPermaLink="false">trend_3-888</guid>
+      <enclosure url="javascript:download('trend_3','888','17615','application/pdf');" length="0" type="application/octet-stream"/>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>업계동향</title>
+      <link>https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=889&amp;sk=&amp;sw=&amp;offset=&amp;category=</link>
+      <description>&lt;p&gt;&lt;strong&gt;게시판:&lt;/strong&gt; 임상·허가&lt;/p&gt;&lt;p&gt;&lt;strong&gt;본문:&lt;/strong&gt; 제목 해외 바이오의약품 임상 현황 (2026년 7월 4주) 구분 임상 출처 ClinicalTrials.gov 등록일 2026.07.28 작성자 산업정보팀 조회수 238 첨부파일 KoBIA_ClinicalTrials.gov_해외 바이오의약품 임상 현황_2026년 7월 4주_20260728.pdf&lt;/p&gt;&lt;p&gt;&lt;strong&gt;첨부파일:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="javascript:download('trend_3','889','17616','application/pdf');"&gt;KoBIA_ClinicalTrials.gov_해외 바이오의약품 임상 현황_2026년 7월 4주_20260728.pdf&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=889&amp;sk=&amp;sw=&amp;offset=&amp;category="&gt;게시글 바로가기&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong>게시판:</strong> 임상·허가</p><p><strong>본문:</strong> 제목 해외 바이오의약품 임상 현황 (2026년 7월 4주) 구분 임상 출처 ClinicalTrials.gov 등록일 2026.07.28 작성자 산업정보팀 조회수 238 첨부파일 KoBIA_ClinicalTrials.gov_해외 바이오의약품 임상 현황_2026년 7월 4주_20260728.pdf</p><p><strong>첨부파일:</strong></p><ul><li><a href="javascript:download('trend_3','889','17616','application/pdf');">KoBIA_ClinicalTrials.gov_해외 바이오의약품 임상 현황_2026년 7월 4주_20260728.pdf</a></li></ul><p><a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&sNum=5&sNum2=3&boardid=trend_3&mode=view&idx=889&sk=&sw=&offset=&category=">게시글 바로가기</a></p>]]></content:encoded>
+      <guid isPermaLink="false">trend_3-889</guid>
+      <enclosure url="javascript:download('trend_3','889','17616','application/pdf');" length="0" type="application/octet-stream"/>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>업계동향</title>
+      <link>https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=890&amp;sk=&amp;sw=&amp;offset=&amp;category=</link>
+      <description>&lt;p&gt;&lt;strong&gt;게시판:&lt;/strong&gt; 임상·허가&lt;/p&gt;&lt;p&gt;&lt;strong&gt;본문:&lt;/strong&gt; 제목 국내 바이오의약품 임상 현황 (2026년 7월 5주) 구분 임상 출처 의약품안전나라 (의약품통합정보시스템) 등록일 2026.08.03 작성자 산업정보팀 조회수 171 첨부파일 KoBIA_의약품안전나라_국내 바이오의약품 임상 현황_2026년 7월 5주_20260803.pdf&lt;/p&gt;&lt;p&gt;&lt;strong&gt;첨부파일:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="javascript:download('trend_3','890','17678','application/pdf');"&gt;KoBIA_의약품안전나라_국내 바이오의약품 임상 현황_2026년 7월 5주_20260803.pdf&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=890&amp;sk=&amp;sw=&amp;offset=&amp;category="&gt;게시글 바로가기&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong>게시판:</strong> 임상·허가</p><p><strong>본문:</strong> 제목 국내 바이오의약품 임상 현황 (2026년 7월 5주) 구분 임상 출처 의약품안전나라 (의약품통합정보시스템) 등록일 2026.08.03 작성자 산업정보팀 조회수 171 첨부파일 KoBIA_의약품안전나라_국내 바이오의약품 임상 현황_2026년 7월 5주_20260803.pdf</p><p><strong>첨부파일:</strong></p><ul><li><a href="javascript:download('trend_3','890','17678','application/pdf');">KoBIA_의약품안전나라_국내 바이오의약품 임상 현황_2026년 7월 5주_20260803.pdf</a></li></ul><p><a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&sNum=5&sNum2=3&boardid=trend_3&mode=view&idx=890&sk=&sw=&offset=&category=">게시글 바로가기</a></p>]]></content:encoded>
+      <guid isPermaLink="false">trend_3-890</guid>
+      <enclosure url="javascript:download('trend_3','890','17678','application/pdf');" length="0" type="application/octet-stream"/>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>업계동향</title>
+      <link>https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=891&amp;sk=&amp;sw=&amp;offset=&amp;category=</link>
+      <description>&lt;p&gt;&lt;strong&gt;게시판:&lt;/strong&gt; 임상·허가&lt;/p&gt;&lt;p&gt;&lt;strong&gt;본문:&lt;/strong&gt; 제목 해외 바이오의약품 임상 현황 (2026년 7월 5주) 구분 임상 출처 ClinicalTrials.gov 등록일 2026.08.04 작성자 산업정보팀 조회수 167 첨부파일 KoBIA_ClinicalTrials.gov_해외 바이오의약품 임상 현황_2026년 7월 5주_20260804.pdf&lt;/p&gt;&lt;p&gt;&lt;strong&gt;첨부파일:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="javascript:download('trend_3','891','17680','application/pdf');"&gt;KoBIA_ClinicalTrials.gov_해외 바이오의약품 임상 현황_2026년 7월 5주_20260804.pdf&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=891&amp;sk=&amp;sw=&amp;offset=&amp;category="&gt;게시글 바로가기&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong>게시판:</strong> 임상·허가</p><p><strong>본문:</strong> 제목 해외 바이오의약품 임상 현황 (2026년 7월 5주) 구분 임상 출처 ClinicalTrials.gov 등록일 2026.08.04 작성자 산업정보팀 조회수 167 첨부파일 KoBIA_ClinicalTrials.gov_해외 바이오의약품 임상 현황_2026년 7월 5주_20260804.pdf</p><p><strong>첨부파일:</strong></p><ul><li><a href="javascript:download('trend_3','891','17680','application/pdf');">KoBIA_ClinicalTrials.gov_해외 바이오의약품 임상 현황_2026년 7월 5주_20260804.pdf</a></li></ul><p><a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&sNum=5&sNum2=3&boardid=trend_3&mode=view&idx=891&sk=&sw=&offset=&category=">게시글 바로가기</a></p>]]></content:encoded>
+      <guid isPermaLink="false">trend_3-891</guid>
+      <enclosure url="javascript:download('trend_3','891','17680','application/pdf');" length="0" type="application/octet-stream"/>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>업계동향</title>
+      <link>https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=892&amp;sk=&amp;sw=&amp;offset=&amp;category=</link>
+      <description>&lt;p&gt;&lt;strong&gt;게시판:&lt;/strong&gt; 임상·허가&lt;/p&gt;&lt;p&gt;&lt;strong&gt;본문:&lt;/strong&gt; 제목 국내·외 바이오의약품 허가 현황 (2026년 7월) 구분 허가 출처 식품의약품안전처, FDA, EC, PMDA 등록일 2026.08.04 작성자 산업정보팀 조회수 86 첨부파일 KoBIA_국내외 바이오의약품 허가 현황(2026년 8월)_20260804.pdf&lt;/p&gt;&lt;p&gt;&lt;strong&gt;첨부파일:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="javascript:download('trend_3','892','17683','application/pdf');"&gt;KoBIA_국내외 바이오의약품 허가 현황(2026년 8월)_20260804.pdf&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=892&amp;sk=&amp;sw=&amp;offset=&amp;category="&gt;게시글 바로가기&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong>게시판:</strong> 임상·허가</p><p><strong>본문:</strong> 제목 국내·외 바이오의약품 허가 현황 (2026년 7월) 구분 허가 출처 식품의약품안전처, FDA, EC, PMDA 등록일 2026.08.04 작성자 산업정보팀 조회수 86 첨부파일 KoBIA_국내외 바이오의약품 허가 현황(2026년 8월)_20260804.pdf</p><p><strong>첨부파일:</strong></p><ul><li><a href="javascript:download('trend_3','892','17683','application/pdf');">KoBIA_국내외 바이오의약품 허가 현황(2026년 8월)_20260804.pdf</a></li></ul><p><a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&sNum=5&sNum2=3&boardid=trend_3&mode=view&idx=892&sk=&sw=&offset=&category=">게시글 바로가기</a></p>]]></content:encoded>
+      <guid isPermaLink="false">trend_3-892</guid>
+      <enclosure url="javascript:download('trend_3','892','17683','application/pdf');" length="0" type="application/octet-stream"/>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>업계동향</title>
+      <link>https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=893&amp;sk=&amp;sw=&amp;offset=&amp;category=</link>
+      <description>&lt;p&gt;&lt;strong&gt;게시판:&lt;/strong&gt; 임상·허가&lt;/p&gt;&lt;p&gt;&lt;strong&gt;본문:&lt;/strong&gt; 제목 국내 바이오의약품 임상 현황 (2026년 8월 1주) 구분 임상 출처 의약품안전나라 (의약품통합정보시스템) 등록일 2026.08.10 작성자 산업정보팀 조회수 145 첨부파일 KoBIA_의약품안전나라_국내 바이오의약품 임상 현황_2026년 8월 1주_20260810.pdf&lt;/p&gt;&lt;p&gt;&lt;strong&gt;첨부파일:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="javascript:download('trend_3','893','17707','application/pdf');"&gt;KoBIA_의약품안전나라_국내 바이오의약품 임상 현황_2026년 8월 1주_20260810.pdf&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=893&amp;sk=&amp;sw=&amp;offset=&amp;category="&gt;게시글 바로가기&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong>게시판:</strong> 임상·허가</p><p><strong>본문:</strong> 제목 국내 바이오의약품 임상 현황 (2026년 8월 1주) 구분 임상 출처 의약품안전나라 (의약품통합정보시스템) 등록일 2026.08.10 작성자 산업정보팀 조회수 145 첨부파일 KoBIA_의약품안전나라_국내 바이오의약품 임상 현황_2026년 8월 1주_20260810.pdf</p><p><strong>첨부파일:</strong></p><ul><li><a href="javascript:download('trend_3','893','17707','application/pdf');">KoBIA_의약품안전나라_국내 바이오의약품 임상 현황_2026년 8월 1주_20260810.pdf</a></li></ul><p><a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&sNum=5&sNum2=3&boardid=trend_3&mode=view&idx=893&sk=&sw=&offset=&category=">게시글 바로가기</a></p>]]></content:encoded>
+      <guid isPermaLink="false">trend_3-893</guid>
+      <enclosure url="javascript:download('trend_3','893','17707','application/pdf');" length="0" type="application/octet-stream"/>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>업계동향</title>
+      <link>https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=894&amp;sk=&amp;sw=&amp;offset=&amp;category=</link>
+      <description>&lt;p&gt;&lt;strong&gt;게시판:&lt;/strong&gt; 임상·허가&lt;/p&gt;&lt;p&gt;&lt;strong&gt;본문:&lt;/strong&gt; 제목 [미국] 바이오의약품 허가제품 정보: 「Tudriqev」 구분 허가 출처 FDA 등록일 2026.08.10 작성자 산업정보팀 조회수 47 첨부파일 [미국] 바이오의약품 허가제품 정보_Tudriqev_2026 0810.pdf&lt;/p&gt;&lt;p&gt;&lt;strong&gt;첨부파일:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="javascript:download('trend_3','894','17704','application/pdf');"&gt;[미국] 바이오의약품 허가제품 정보_Tudriqev_2026 0810.pdf&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=894&amp;sk=&amp;sw=&amp;offset=&amp;category="&gt;게시글 바로가기&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong>게시판:</strong> 임상·허가</p><p><strong>본문:</strong> 제목 [미국] 바이오의약품 허가제품 정보: 「Tudriqev」 구분 허가 출처 FDA 등록일 2026.08.10 작성자 산업정보팀 조회수 47 첨부파일 [미국] 바이오의약품 허가제품 정보_Tudriqev_2026 0810.pdf</p><p><strong>첨부파일:</strong></p><ul><li><a href="javascript:download('trend_3','894','17704','application/pdf');">[미국] 바이오의약품 허가제품 정보_Tudriqev_2026 0810.pdf</a></li></ul><p><a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&sNum=5&sNum2=3&boardid=trend_3&mode=view&idx=894&sk=&sw=&offset=&category=">게시글 바로가기</a></p>]]></content:encoded>
+      <guid isPermaLink="false">trend_3-894</guid>
+      <enclosure url="javascript:download('trend_3','894','17704','application/pdf');" length="0" type="application/octet-stream"/>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>업계동향</title>
+      <link>https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=895&amp;sk=&amp;sw=&amp;offset=&amp;category=</link>
+      <description>&lt;p&gt;&lt;strong&gt;게시판:&lt;/strong&gt; 임상·허가&lt;/p&gt;&lt;p&gt;&lt;strong&gt;본문:&lt;/strong&gt; 제목 해외 바이오의약품 임상 현황 (2026년 8월 1주) 구분 임상 출처 ClinicalTrials.gov 등록일 2026.08.11 작성자 산업정보팀 조회수 122 첨부파일 KoBIA_ClinicalTrials.gov_해외 바이오의약품 임상 현황_2026년 8월 1주_20260811.pdf&lt;/p&gt;&lt;p&gt;&lt;strong&gt;첨부파일:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="javascript:download('trend_3','895','17708','application/pdf');"&gt;KoBIA_ClinicalTrials.gov_해외 바이오의약품 임상 현황_2026년 8월 1주_20260811.pdf&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&amp;sNum=5&amp;sNum2=3&amp;boardid=trend_3&amp;mode=view&amp;idx=895&amp;sk=&amp;sw=&amp;offset=&amp;category="&gt;게시글 바로가기&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong>게시판:</strong> 임상·허가</p><p><strong>본문:</strong> 제목 해외 바이오의약품 임상 현황 (2026년 8월 1주) 구분 임상 출처 ClinicalTrials.gov 등록일 2026.08.11 작성자 산업정보팀 조회수 122 첨부파일 KoBIA_ClinicalTrials.gov_해외 바이오의약품 임상 현황_2026년 8월 1주_20260811.pdf</p><p><strong>첨부파일:</strong></p><ul><li><a href="javascript:download('trend_3','895','17708','application/pdf');">KoBIA_ClinicalTrials.gov_해외 바이오의약품 임상 현황_2026년 8월 1주_20260811.pdf</a></li></ul><p><a href="https://www.kobia.kr/memberlounge/trend_3.php?mNum=2&sNum=5&sNum2=3&boardid=trend_3&mode=view&idx=895&sk=&sw=&offset=&category=">게시글 바로가기</a></p>]]></content:encoded>
+      <guid isPermaLink="false">trend_3-895</guid>
+      <enclosure url="javascript:download('trend_3','895','17708','application/pdf');" length="0" type="application/octet-stream"/>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
